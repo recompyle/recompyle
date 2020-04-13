@@ -1,0 +1,19 @@
+{
+  "name": "recompyle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recompyle/recompyle.git"
+  },
+  "author": "Recompyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recompyle/recompyle/issues"
+  },
+  "homepage": "https://github.com/recompyle/recompyle#readme"
+}

@@ -20,12 +20,12 @@ the IDE.
 
 An example of code :
 
-![An example of code](img/recompyle-code.png)
+![An example of code](https://asset.recompyle.com/readme/recompyle/recompyle-code.png)
 
 
 What it look like in Recompyle :
 
-![An example of code](img/recompyle-output-1.png)
+![An example of code](https://asset.recompyle.com/readme/recompyle/recompyle-output-1.png)
 
 
 # How it works
@@ -71,7 +71,7 @@ console + some parsing.
 
 ### Menu / Header
 
-![Default / Custom](img/header-menu.png)
+![Default / Custom](https://asset.recompyle.com/readme/recompyle/header-menu.png)
 
 When the header is all green you are ready to go.
  
@@ -84,7 +84,7 @@ When the header is all green you are ready to go.
 
 ### Target files 
 
-![Default / Custom](img/target-files.png)
+![Default / Custom](https://asset.recompyle.com/readme/recompyle/target-files.png)
 
 
 "Breakpoints" are the files that will log more informations :
@@ -103,7 +103,7 @@ Some explanation about MF, AF, Default ;
 - AF = ALL Functions = will logs all functions
 - Default / Custom : Open a popup that let you select what you want to log.
 
-<img src="./img/pick-list-functions.png" alt="image" width="500" height="auto">
+<img src="https://asset.recompyle.com/readme/recompyle/pick-list-functions.png" alt="image" width="500" height="auto">
 
 
 ### Tabs : let you keep an history of your logs.
@@ -113,7 +113,7 @@ Some explanation about MF, AF, Default ;
 
 ### Console
 
-![Default / Custom](img/recompyle-console.png)
+![Default / Custom](https://asset.recompyle.com/readme/recompyle/recompyle-console.png)
 
 - Pretty formatting : show parameters + scope
 - In the JSON viewer
@@ -144,7 +144,7 @@ you project ./recompyle/ inside there will be a
   - subType : show the subtype for some objects
   - ignored : the ignored keys from data-filter.js
   
-<img src="./img/hashtag-extras-infos.png" alt="image" width="500" height="auto">
+<img src="https://asset.recompyle.com/readme/recompyle/hashtag-extras-infos.png" alt="image" width="500" height="auto">
 
 
 You can start multiple instances of recompyle if you need to.

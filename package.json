@@ -1,8 +1,8 @@
 {
-  "license": "SEE LICENSE IN LICENSE.txt",
   "name": "recompyle",
   "version": "0.1.1",
-  "description": "Javascript / Typescript Smart Debugger",
+  "license": "SEE LICENSE IN License.txt",
+  "description": "A Javascript Developer Friendly Console / Debugger",
   "author": "Recompyle - Damien Galan <damien@recompyle.com> (https://github.com/recompyle)",
   "main": "main.js",
   "scripts": {
@@ -11,6 +11,16 @@
   "bin": {
     "recompyle": "./bin/recompyle.js"
   },
+  "homepage": "https://github.com/recompyle/recompyle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recompyle/recompyle"
+  },
+  "bugs": {
+    "url": "https://github.com/recompyle/recompyle/issues",
+    "email": "support@recompyle.com"
+  },
+  "icon": "asset/logo-500.png",
   "engines": {
     "npm": ">=6.0.0",
     "node": ">=12.0.0"

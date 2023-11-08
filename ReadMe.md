@@ -1,4 +1,4 @@
-# Recompyle - launching soon
+# Recompyle - [Website](https://www.recompyle.com)
 
 A Javascript Developer Friendly Console / Debugger.
 
@@ -41,12 +41,13 @@ console + some parsing.
   development )
 
 # Get Started
-- Create an account on Recompyle https://recompyle.com/signup
+- Create an account on Recompyle [recompyle.com/signup](https://www.recompyle.com/signup)
+( 7 day free trial )
 - Install recompyle globally
   -  npm install recompyle -g
 - Install the plugin for your IDE :
-  - [Jetbrains Plugin](https://plugins.jetbrains.com/plugin/23004-recompyle) 
-  - [VsCode Plugin]()
+  - [Jetbrains Plugin](https://plugins.jetbrains.com/plugin/23004-recompyle)
+  - [VsCode Plugin](https://marketplace.visualstudio.com/items?itemName=Recompyle.recompyle-vscode-plugin)
 - Start your App in debug
   - in node.js :
     - node app.js --inspect=9227
@@ -63,8 +64,8 @@ console + some parsing.
     - On Firefox
       - firefox --remote-debugging-port 9227
 - Select a file with your IDE
-  - On jetbrains you have an Icon () or Tools > Recompyle > Select FIle
-  - On VsCode CTR + Shift + P > "Select File Recompyle"
+  - On jetbrains you have an Icon <img src="https://asset.recompyle.com/readme/jetbrains/recompyle-icon-task-bar.png" alt="image" width="30" height="auto"> or Tools > Recompyle > Select FIle
+  - On VsCode Command Palette ( CTRL + Shift + P ) > "Select File Recompyle"
 
 
 # Features
@@ -175,3 +176,7 @@ Preferably on Github issues. Or by email support@recompyle.com
   be possible to call a method and log the result. it would be a 
   configuration in data-filter.js ( callMethod : [string] )
 - Make Recompyle work with testing framework.
+
+
+<br /><br />
+<img src="https://asset.recompyle.com/logo/logo-256.jpg" alt="image" width="256" height="auto">

@@ -1,4 +1,4 @@
-# Recompyle - [Website](https://www.recompyle.com)
+# Recompyle Documentation - [Website](https://www.recompyle.com)
 
 A Javascript Developer Friendly Console / Debugger.
 

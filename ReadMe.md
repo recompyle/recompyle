@@ -1,8 +1,10 @@
-# Recompyle Documentation - [Website](https://www.recompyle.com)
+# Recompyle Documentation 
+[Recompyle Website](https://www.recompyle.com)
+
+<img src="https://asset.recompyle.com/logo/logo-256.jpg" alt="image" width="200" height="auto">
+
 
 A Javascript Developer Friendly Console / Debugger.
-
-It let you debug your app more efficiently.
 
 I have always been annoyed of the console.log not being practical enough, and 
 the debugger "too slow".
@@ -10,6 +12,7 @@ So i made Recompyle to fix that, it solves multiple frictions of the
 debugging experience.
 
 - Need to write console.log everywhere, then remove them.
+- The console.log does not have the scope like a breakpoint in debug.
 - When you click on a filePath in chrome it opens in the dev console not in
 the IDE.
 - A log history better than "Preserve Log"
@@ -62,9 +65,10 @@ console + some parsing.
       - flatpak run org.chromium.Chromium --remote-debugging-port=9227 
         --user-data-dir=/home/hello/chromium-profile
     - On Firefox
-      - firefox --remote-debugging-port 9227
+      - not supported right now.
 - Select a file with your IDE
-  - On jetbrains you have an Icon <img src="https://asset.recompyle.com/readme/jetbrains/recompyle-icon-task-bar.png" alt="image" width="30" height="auto"> or Tools > Recompyle > Select FIle
+  - On jetbrains you have an Icon in the top right <img src="https://asset.recompyle.com/readme/jetbrains/recompyle-icon-task-bar.png" alt="image" width="30" height="auto"> or Tools > Recompyle > 
+    Select FIle
   - On VsCode Command Palette ( CTRL + Shift + P ) > "Select File Recompyle"
 
 
@@ -171,6 +175,7 @@ Preferably on Github issues. Or by email support@recompyle.com
 
 
 # Roadmap 
+- Make it work on all projects.
 - Show the result of Promise, Await, Callback, Subscription.
 - Call method to get the data : right now recompyle log only values, it will 
   be possible to call a method and log the result. it would be a 
@@ -178,5 +183,3 @@ Preferably on Github issues. Or by email support@recompyle.com
 - Make Recompyle work with testing framework.
 
 
-<br /><br />
-<img src="https://asset.recompyle.com/logo/logo-256.jpg" alt="image" width="256" height="auto">

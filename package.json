@@ -1,6 +1,6 @@
 {
   "name": "recompyle",
-  "version": "0.1.4.1",
+  "version": "0.1.5",
   "license": "SEE LICENSE IN License.md",
   "description": "A Javascript Developer Friendly Console / Debugger",
   "author": "Recompyle - Damien Galan <damien@recompyle.com> (https://github.com/recompyle)",

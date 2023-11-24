@@ -19,6 +19,15 @@ the IDE.
 - A nicer JSON viewer ( Especially on Node.js )
 
 
+# Note
+Recompyle might not work for every project right now.
+It will be working on almost any JS / TS project in the near future.
+
+Open Source projects that work with Recompyle :
+https://github.com/sahat/hackathon-starter
+https://github.com/louislam/uptime-kuma
+https://github.com/jgudo/ecommerce-react
+
 # Screenshots
 
 An example of code :

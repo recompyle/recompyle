@@ -24,9 +24,16 @@ Recompyle might not work for every project right now.
 It will be working on almost any JS / TS project in the near future.
 
 Open Source projects that work with Recompyle :
-https://github.com/sahat/hackathon-starter
-https://github.com/louislam/uptime-kuma
-https://github.com/jgudo/ecommerce-react
+
+https://github.com/sahat/hackathon-starter ( Node + Browser)
+
+https://github.com/jgudo/ecommerce-react ( Browser )
+
+
+# Video Demo
+
+[![Watch the video](https://img.youtube.com/vi/swRmdaghz3g/maxresdefault.jpg)](https://youtu.be/swRmdaghz3g)
+
 
 # Screenshots
 
@@ -69,12 +76,15 @@ console + some parsing.
         server/app.ts}
   - In the browser :
     - On Chrome
-      - chrome --remote-debugging-port=9227 
-      --user-data-dir=/home/hello/chromium-profile
-      - flatpak run org.chromium.Chromium --remote-debugging-port=9227 
-        --user-data-dir=/home/hello/chromium-profile
+      - Linux
+        - chrome --remote-debugging-port=9227 --user-data-dir=/home/hello/chrome-profile
+        - flatpak run org.chromium.Chromium --remote-debugging-port=9227  --user-data-dir=/home/hello/chrome-profile
+      - Mac
+        - /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9227 --user-data-dir=/Users/hello/chrome-profile
+      - Windows
+        - start chrome --remote-debugging-port=9227 --user-data-dir=/Users/hello/chrome-profile
     - On Firefox
-      - not supported right now.
+      - not tested right now.
 - Select a file with your IDE
   - On jetbrains you have an Icon in the top right <img src="https://asset.recompyle.com/readme/jetbrains/recompyle-icon-task-bar.png" alt="image" width="30" height="auto"> or Tools > Recompyle > 
     Select FIle
@@ -190,5 +200,5 @@ Preferably on Github issues. Or by email support@recompyle.com
   be possible to call a method and log the result. it would be a 
   configuration in data-filter.js ( callMethod : [string] )
 - Make Recompyle work with testing framework.
-
+- ???
 

@@ -8,22 +8,23 @@ A Javascript Developer Friendly Console / Debugger.
 
 I have always been annoyed of the console.log not being practical enough, and 
 the debugger "too slow".
-So i made Recompyle to fix that, it solves multiple frictions of the 
+So i made Recompyle to fix that, it also solves multiple frictions of the 
 debugging experience.
 
 - Need to write console.log everywhere, then remove them.
-- The console.log does not have the scope like a breakpoint in debug.
-- When you click on a filePath in chrome it opens in the dev console not in
+- The console.log does not have the scope like a breakpoint in the debugger.
+- When you click on a file path in chrome it opens in the dev console not in
 the IDE.
-- A log history better than "Preserve Log"
+- A better log history than "Preserve Log"
 - A nicer JSON viewer ( Especially on Node.js )
 
 
 # Note
-Recompyle might not work for every project right now.
-It will be working on almost any JS / TS project in the near future.
+Recompyle will not work for every project right now.
+It's a work in progress.
 
-Open Source projects that work with Recompyle :
+
+Example of Open Source projects that work with Recompyle :
 
 https://github.com/sahat/hackathon-starter ( Node + Browser)
 
@@ -83,8 +84,6 @@ console + some parsing.
         - /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9227 --user-data-dir=/Users/hello/chrome-profile
       - Windows
         - start chrome --remote-debugging-port=9227 --user-data-dir=/Users/hello/chrome-profile
-    - On Firefox
-      - not tested right now.
 - Select a file with your IDE
   - On jetbrains you have an Icon in the top right <img src="https://asset.recompyle.com/readme/jetbrains/recompyle-icon-task-bar.png" alt="image" width="30" height="auto"> or Tools > Recompyle > 
     Select FIle

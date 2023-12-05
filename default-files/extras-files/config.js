@@ -28,7 +28,7 @@ exports.config = {
   //   show: { closure: true, global: false },
   //   mergeAll: false, // merge local closure and global
   //   maxDepth: 7, // max depth of an object
-  //   timeout: 900, // timeout to query an object in ms
+  //   timeout: 300, // timeout to query an object in ms
   //   showHashtagInfos: true,
   // },
   // PATHS

@@ -16,8 +16,6 @@ debugging experience.
 - When you click on a file path in chrome it opens in the dev console not in
 the IDE.
 - A better log history than "Preserve Log"
-- A nicer JSON viewer ( Especially on Node.js )
-
 
 # Note
 Recompyle will not work for every project right now.
@@ -199,5 +197,6 @@ Preferably on Github issues. Or by email support@recompyle.com
   be possible to call a method and log the result. it would be a 
   configuration in data-filter.js ( callMethod : [string] )
 - Make Recompyle work with testing framework.
+- Log network requests.
 - ???
 

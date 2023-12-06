@@ -1,6 +1,6 @@
 {
   "name": "recompyle",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "license": "SEE LICENSE IN License.md",
   "description": "A Javascript Developer Friendly Console / Debugger",
   "author": "Recompyle - Damien Galan <damien@recompyle.com> (https://github.com/recompyle)",
@@ -41,7 +41,7 @@
     "async": "^3.2.4",
     "axios": "^0.27.2",
     "babel-preset-es2015": "^6.24.1",
-    "better-sqlite3": "^8.5.0",
+    "better-sqlite3": "^9.1.1",
     "body-parser": "^1.20.0",
     "builtin-modules": "^3.3.0",
     "chrome-remote-interface": "^0.33.0",

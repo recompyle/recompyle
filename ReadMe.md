@@ -62,7 +62,7 @@ console + some parsing.
 - Create an account on Recompyle [recompyle.com/signup](https://www.recompyle.com/signup)
 ( 7 day free trial )
 - Install recompyle globally
-  -  npm install recompyle -g
+  -  npm install -g recompyle
 - Install the plugin for your IDE :
   - [Jetbrains Plugin](https://plugins.jetbrains.com/plugin/23004-recompyle)
   - [VsCode Plugin](https://marketplace.visualstudio.com/items?itemName=Recompyle.recompyle-vscode-plugin)
